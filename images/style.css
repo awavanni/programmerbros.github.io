@@ -1,0 +1,164 @@
+ ul{
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+    
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 14px;
+    
+}
+
+ul li a:hover{
+    background-color: yellowgreen;
+    color: rgb(27, 15, 199);
+}
+
+
+
+body{
+    font-family: cursive;
+}
+
+h1{
+color: coral;
+}
+
+.fas{
+    color: white;
+}
+
+
+.holi{
+    background-color: pink;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 20ps;
+}
+
+.mypics img{
+width: 190px;
+margin: auto;
+
+}
+
+.mypics img{
+    text-align: center;
+    border-radius: 50%;
+    }
+
+    .first{
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+
+dute{
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+}    
+
+caption{
+    caption-side: top;
+}
+
+.clasup{
+    background-color: blue;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 20ps;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+
+.dex{
+  background-color: green;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+ line-height: 34px;
+}    
+
+footer{
+  background-color: yellow;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin: 34px;
+}
